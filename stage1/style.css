@@ -1,9 +1,6 @@
 /* CSS for stage1 project */
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -26,7 +23,7 @@ body {
   background-color: white;
   border-radius: 40px;
   padding: 20px;
-  outline: 1px solid red !important;
+  display: flex;
 }
 /* the border-radius attribute makes
 the corners rounded and the margin
@@ -40,7 +37,9 @@ the lesson divs.  */
 	padding: 10px;
 }
 
-
+.roundimage{
+  border-radius: 50%
+}
 
 .section {
 	background-color: white;
@@ -49,7 +48,6 @@ the lesson divs.  */
 	border-radius: 4px;
 	color: black;
   display: flex;
-  display: -webkit-flex;
 }
 
 .section-title {
@@ -71,7 +69,6 @@ the lesson divs.  */
 
 .sample-image{
   display: flex;
-  display: -webkit-flex;
 }
 
 .italic {
