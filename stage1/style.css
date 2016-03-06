@@ -67,10 +67,6 @@ the lesson divs.  */
   font-weight: bolder;
 }
 
-.sample-image{
-  display: flex;
-}
-
 .italic {
 	font-style: italic;
 }
