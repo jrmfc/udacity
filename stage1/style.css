@@ -1,6 +1,83 @@
-/* This is a CSS comment. Notice that CSS comments are
-enclosed by different characters than HTML comments. */
+/* CSS for stage1 project */
 
-/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
-You can apply CSS elements to entire HTML classes. Review Lesson 1.3
-if you need a refresher about how to do this. */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	color: mediumblue;
+}
+
+/* margins push other elements away */
+h2 {
+	margin: 10px;
+}
+
+/* change to a nicer font */
+body {
+	font-family: Helvetica;
+}
+
+.footer {
+  background-color: white;
+  border-radius: 40px;
+  padding: 20px;
+  outline: 1px solid red !important;
+}
+/* the border-radius attribute makes
+the corners rounded and the margin
+clears out space for the stuff inside
+the lesson divs.  */
+
+.lesson {
+	background-color: royalblue;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+}
+
+
+
+.section {
+	background-color: white;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.section-title {
+	font-size: 20px;
+	margin: 30px;
+	text-align: left;
+	color: navy;
+}
+
+.section-description {
+	font-weight: lighter;
+	margin: 6px;
+}
+
+.samplespans {
+  font-style:italic;
+  font-weight: bolder;
+}
+
+.sample-image{
+  display: flex;
+  display: -webkit-flex;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}

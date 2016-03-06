@@ -22,10 +22,11 @@ text that will be ignored by the computer! -->
     </div>
     <div class="section-content">
       <p> <em>HTML is <b>reasonably straightforward</b></em>.  It stands for Hypertext Markup Language.
-  The text in html documents is much of the content visible via a web browser, while the markup formats how it looks.
+        The text in html documents is much of the content visible via a web browser, while the markup formats how it looks.
       </p>
-      <span>
-      <p>You can of course include images, like <div class="sample-image"><img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Tamias_minimus.jpg" alt="chipmunk!"></div><br>
+
+      <span class=samplespans>
+      <p>You can of course include images, like <div class="sample-image"><img src="images/homer.png" alt="chipmunk!"></div><br>
   And links to other pages like <a href="http://google.com">this</a>.
       </p>
       </span>
@@ -59,8 +60,9 @@ When starting on a new page design, start from an overview of the "boxes" you se
 
     <p>Use the div and span elements to group related content together.  By dividing your page with these elements, you create the boxes that allow for much faster and easier customization and changes of style for your content.
 
-  </div> <!-- End of Section Content -->
+  </div>
 </div> <!-- End of Section -->
+
 </div> <!-- End of Lesson 2 -->
 
 
@@ -85,31 +87,71 @@ When starting on a new page design, start from an overview of the "boxes" you se
         CSS can be included in the header of your page(s), inline with your elements, or linked to a seperate file. Inline or embedded in the head section is ok for very simple pages, but linking from a seperate file is best for larger projects.
       </p>
     </div>
+  </div> <!-- End of Section -->
+
+  <div class="section"> <!--Start of Section -->
     <div class="section-title">
       Divs and Spans
     </div>
     <div class="section-content">
       <p>
-        Divs and spans seperate your text into manageable sections.  Divs create a rectangular box around sections of your page.  Spans surround text inline, without creating a box like a div.
+        Divs and spans seperate your text into manageable sections.  Divs create a rectangular box around sections of your page.
+        <span class="samplespans">Spans surround text inline, without creating a box like a div.
+        </span>
       </p>
       <p>
         You can specify an id or a class with a div or span.  ID should be used for unique elements, while class should be for general sections that you want to be able to apply similar style across.
       </p>
     </div>
+
+  </div> <!-- End of Section -->
+
+  <div class="section"> <!--Start of Section -->
+
     <div class="section-title">
-      What's the big deal about Style
+      Why Style?
     </div>
     <div class="section-content">
+      <p>
+        You don't have to use good style for your code to work on the computer.  Poorly styled code may execute just fine.  Reading and troubleshooting poorly styled code will probably be quite frustrating however.
+      </p>
       <p>
         Practicing good style lets you write more efficient, understand code more efficient, and help yourself and others communicate in a common method.
         Good style improves productivity for you and others that read your code or work with you on projects.
       </p>
+      <p>
+        Above all, remain consistent with your style.  Everyone who reads your code will appreciate that.
+      </p>
+
     </div>
 
-      </style>
-    </div>
+  </div> <!-- End of Section -->
 
-    </div><!-- End of Section -->
-  </div> <!-- End of Lesson 3-->
+  <div class="section"> <!--Start of Section -->
+    <div class="section-title">
+      More Boxing!
+    </div>
+    <div class="section-content">
+      <p>
+        Boxes are a little more complex than a 4 sided figure.  Each box has multiple parts  - margin, border, pattern, and content.
+        Dealing with boxes can be challenging.  Here are some helpful reminders:
+        <ol>
+          <li>Use percentages instead of pixels
+          </li>
+          <li>Set the box-sizing attribute to border-box for every element in your css file.
+          </li>
+          <li>Refer to this <a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/">helpful page on flexbox</a>
+          </li>
+        </ol>
+      </p>
+    </div><!-- End of Section Content-->
+  </div><!-- End of Section-->
+
+</div> <!-- End of Lesson 3-->
+
+<div class="footer">
+  The footer is going to go here.
+
+</div>
 
 </body>
