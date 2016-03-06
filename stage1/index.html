@@ -10,60 +10,81 @@ text that will be ignored by the computer! -->
 </head>
 <body> <!-- The body tag is where the "flesh" of your HTML goes -->
 
-<div class="title">My Udacity IPND Notes</div>
+<h1>My Udacity IPND Notes</h1>
 
-  <div class="section">
-   <h1>Lesson 1</h1>
+  <div class="lesson">  <!-- Start of Lesson 1 -->
+   <h2>About HTML</h2>
 
-  <div class="section">
-   <h2>HTML</h2>
+  <div class="section"> <!-- Start of Section -->
+    <div class="section-title">
+      HTML
+    </div>
+    <div class="section-content"
+      <p> <em>HTML is <b>reasonably straightforward</b></em>.  It stands for Hypertext Markup Language.
+  The text in html documents is much of the content visible via a web browser, while the markup formats how it looks.
+      </p>
 
-    <p><em>HTML is <b>reasonably straightforward</b></em>.  It stands for Hypertext Markup Language.<br>
-  The text in html documents is much of the content visible via a web browser, while the markup formats how it looks.</p>
+      <p>You can of course include images, like <div class="sample-image"><img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Tamias_minimus.jpg" alt="chipmunk!"></div><br>
+  And links to other pages like <a href="http://google.com">this</a>.
+  
+      </p>
 
-    <p>You can of course include images, like <div class="sample-image"><img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Tamias_minimus.jpg" alt="chipmunk!"></div><br>
-  And links to other pages like <a href="http://google.com">this</a>.</p>
+      <p>Video and other content can be displayed and formatted using the various elements and tags of HTML.
+      </p>
+    </div> <!-- End of Section Content -->
+  </div>  <!-- End of Section  -->
+</div> <!-- End of Lesson 1 -->
 
-    <p>Video and other content can be displayed and formatted using the various elements and tags of HTML.</p>
- </div>
+ <div class="lesson">   <!-- Start of Lesson 2 -->
+   <h2>Tools and Approach</h2>
 
- <div class="section">
-   <h1>Lesson 2</h1>
-
- <div class="section">
-  <h2>Chrome Developer Tools</h2>
-
+ <div class="section">  <!-- Start of Section -->
+   <div class="section-title">
+     Chrome Developer Tools
+   </div>
+   <div class="section-content">
    <p>You can use Google Chrome browser Developer Tools to explore the document object model, or structure of a web page.<br>
   You can review all the elements, adjust border and margin sizes, font size, text and background colors, and all sorts of style settings for your page.
+  </div>
+</div> <!-- End of Section -->
 
- </div>
-
-  <div class="section">
-   <h2>Boxes and more boxes</h2>
-
+  <div class="section">  <!-- Start of Section -->
+   <div class="section-title">
+     Boxes and more boxes
+   </div>
+   <div class="section-content">
     <p>By having all the elements and objects on a page living in a "box" of some sort, it becomes easier to work with boxes or groups of boxes to redesign how the page is laid out or how it looks.
 When starting on a new page design, start from an overview of the "boxes" you see forming the page and work down to smaller boxes.  The content in each box can come later and be customized.
 
     <p>Use the div and span elements to group related content together.  By dividing your page with these elements, you create the boxes that allow for much faster and easier customization and changes of style for your content.
   </div>
+</div> <!-- End of Section -->
+</div> <!-- End of Lesson 2 -->
 
-  </div>
 
-  <div class="section">
-    <h1>Lesson 3</h1>
+  <div class="lesson"> <!-- Start of Lesson 3 -->
+    <h2>Style Like a Pro</h2>
 
-    <div class="section">
-      <h2>CSS</h2>
-
+    <div class="section"> <!-- Start of Section -->
+      <div class="section-title">
+        CSS
+      </div>
+      <div class="section-content">
       <p>
         Cascading Style Sheets (CSS) let you define page style throughout your project.  The benefit is not having to individually manage element text colors, pixel sizes, properties, etc, but to manage via a set of rules.
         The order of the rules matters, with the most specific rule being the one that matters most and takes effect.
       </p>
+
+      <p>
+        CSS is code you write to control style of your pages.  You can select an element like h1 or h2 for example, and apply a color or background color that applies evenly to every h1 or h2 element in your page.
+      </p>
+
+      <p>
+        CSS can be included in the header of your page(s), inline with your elements, or linked to a seperate file. Inline or embedded in the head section is ok for very simple pages, but linking from a seperate file is best for larger projects.
+      </p>
     </div>
 
-  </div>
-
-
-</div>
+    </div><!-- End of Section -->
+  </div> <!-- End of Lesson 3-->
 
 </body>
